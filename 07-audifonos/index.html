@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TatoPRO Audifonos</title>
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- link normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- link style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenidoHeader">
+            <div class="imagenHeader">
+                <!-- uso de pícture -->
+                <picture>
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.avif 1920w"
+                        type="image/avif">
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.webp 1920w" 
+                        type="image/webp">
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.png 1920w" 
+                        type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="img/header.png" lazyalt="imagen" width="1000" height="600">
+                </picture>
+            </div> <!-- imagenHeader -->
+            <div class="textoHeader">
+                <p class="taglineProducto">Sonido Profesional</p>
+                <h1 class="nombreProducto degradadoVerde">TatoPRO</h1>
+                <p class="descripcionProducto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae adipisci vel neque odio? Ea quae similique, autem blanditiis 
+                minus nesciunt rerum sed aliquam architecto non eos numquam hic magni porro.</p>
+                <p class="precioProducto">desde<span>$299</span></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+                <!-- usamos svg para optimizar y son muy buenas con las escalas -->
+                <img src="img/icono-sonido.svg" alt="sonido">
+                <h3>Calidad de sonido</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae adipisci vel neque odio? Ea quae similique, 
+                autem blanditiis minus nesciunt rerum sed aliquam architecto non eos numquam hic magni porro.</p>
+            </div>
+            <div class="icono">
+                <!-- usamos svg para optimizar y son muy buenas con las escalas -->
+                <img src="img/icono-garantia.svg" alt="garantia">
+                <h3>Garantia por dos años</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae adipisci vel neque odio? Ea quae similique, 
+                autem blanditiis minus nesciunt rerum sed aliquam architecto non eos numquam hic magni porro.</p>
+            </div>
+            <div class="icono">
+                <!-- usamos svg para optimizar y son muy buenas con las escalas -->
+                <img src="img/icono-bateria.svg" alt="bateria">
+                <h3>+20 Horas De duracion</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae adipisci vel neque odio? Ea quae similique, 
+                autem blanditiis minus nesciunt rerum sed aliquam architecto non eos numquam hic magni porro.</p>
+            </div>
+        </div>
+    </section>
+    <section class="sobreAuris">
+        <div class="contenedor sobreGrid">
+            <div class="textoSobre">
+                <h2>Sobre los <span>TatoPRO</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis in nemo explicabo possimus? Deleniti neque fugit, 
+                eos reiciendis cum numquam necessitatibus excepturi ducimus corporis, architecto rerum, repudiandae atque explicabo?</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="contendor modelos">
+        <h2 class="texto-center degradadoVerde tituloModelos">Elige tus TatoPRO</h2>
+
+        <div class="listadoProductos contenedor">
+            <div class="modelo modelo-x">
+                <h3>TatoPRO X</h3>
+                <p class="precio">$299</p>
+            </div>
+            <div class="modelo modelo-y">
+                <h3>TatoPRO Y</h3>
+                <p class="precio">$399</p>
+            </div>
+            <div class="modelo modelo-z">
+                <h3>TatoPRO Z</h3>
+                <p class="precio">$499</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="newSletter">
+        <div class="contenidoNew contenedor">
+            <div class="textoNew">
+                <h2>Recibe Actualizaciones</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate sit atque iusto unde 
+                laudantium nihil voluptatibus facilis animi vitae, sint, corporis dolor architecto quam facere dicta ex ea culpa?</p>
+
+                <form class="formulario">
+                    <div class="input">
+                        <input type="email" placeholder="Tu Email"> 
+                    </div>
+
+                    <input type="submit" value="Inscribirme">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>TODOS LOS DERECHOS RESERVADOS TATOLAST</p>
+    </footer>
+    
+</body>
+</html>
